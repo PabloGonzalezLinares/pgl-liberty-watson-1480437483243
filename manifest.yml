@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pgl-liberty-watson
+  host: pgl-liberty-watson
+  disk_quota: 1024M
+  services:
+  - pgl-liberty-watson-cloudantNoSQLDB
