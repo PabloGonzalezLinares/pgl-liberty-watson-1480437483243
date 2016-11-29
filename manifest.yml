@@ -8,3 +8,4 @@ applications:
   disk_quota: 1024M
   services:
   - pgl-liberty-watson-cloudantNoSQLDB
+  - AlchemyAPI-ZRH
